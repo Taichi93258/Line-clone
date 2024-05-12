@@ -10,3 +10,11 @@ const firebaseApp = firebase.initializeApp({
     messagingSenderId: "251697294375",
     appId: "1:251697294375:web:0fdc6ec5cc0042e28eb202"
 });
+
+const db = firebaseApp.firestore();
+
+const auth = firebase.auth();
+
+export { auth, db };
+
+
